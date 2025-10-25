@@ -7,6 +7,7 @@ import {
 	Tech,
 	Works,
 	Feedbacks,
+	Contact,
 } from "./components";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 					<Tech />
 					<Works />
 					<Feedbacks />
+
+					<Contact />
 				</div>
 			</div>
 		</BrowserRouter>
